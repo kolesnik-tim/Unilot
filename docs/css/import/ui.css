@@ -17,6 +17,17 @@ body
     background-size: cover;
 }
 
+.scene
+{
+    z-index: 77;
+}
+.scene img
+{
+    position: absolute;
+    top: 0;
+    left: -10%;
+}
+
 p
 {
     font-size: 18px;
