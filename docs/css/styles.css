@@ -1909,26 +1909,15 @@ figcaption
     padding-top: 37px;
     padding-right: 20px;
 }
-.lottery__rally__block
+.lottery__rally .flip-counter
 {
-    position: relative; 
-
-    height: 120px;
-    margin-right: -5px;
-
-    background: #000;
+    position: relative;
+    left: 125px;
 }
-@media (max-width: 767px)
-{
-    .lottery__rally__block
-    {
-        margin-left: 50px;
-    }
-}
-.lottery__rally__block:before
+.lottery__rally .flip-counter:before
 {
     position: absolute;
-    top: 25px;
+    top: 5px;
     left: -60px;
 
     width: 45px;
@@ -1937,6 +1926,10 @@ figcaption
     content: '';
 
     background: url('../img/triangle.png') no-repeat;
+}
+.lottery__rally .flip-counter li.b
+{
+    height: 40px;
 }
 .lottery__rally h3
 {
@@ -1954,6 +1947,18 @@ figcaption
     {
         padding-top: 25px;
     }
+}
+.lottery__rally b
+{
+    font-weight: 100;
+    line-height: 20px;
+
+    display: inline-block;
+
+    padding-top: 10px;
+    padding-right: 95px; 
+
+    color: #fdcb8b;
 }
 .lottery__rally p
 {

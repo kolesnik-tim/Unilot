@@ -261,21 +261,19 @@ figure, figcaption
 			.padding
 				padding-top: 37px
 				padding-right: 20px
-		&__block
-			height: 120px
-			background: $black
-			margin-right: -5px
+		.flip-counter
 			position: relative
-			@media(max-width: 767px)
-				margin-left: 50px
+			left: 125px
 			&:before
 				content: ""
 				position: absolute
 				left: -60px
-				top: 25px
+				top: 5px
 				width: 45px
 				height: 75px
 				background: url("../img/triangle.png") no-repeat
+			li.b
+				height: 40px
 		h3
 			font-size: 25px
 			line-height: 48px
@@ -284,6 +282,13 @@ figure, figcaption
 			color: $white
 			@media(max-width: 767px)
 				padding-top: 25px
+		b
+			color: #fdcb8b
+			font-weight: 100
+			padding-top: 10px
+			display: inline-block
+			line-height: 20px
+			padding-right: 95px
 		p
 			color: #fdcb8b
 			font-weight: 100
